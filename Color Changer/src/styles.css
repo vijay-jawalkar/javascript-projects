@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 100px auto;
+}
+
+.content {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.boxes span {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+}
+
+#gray {
+  background-color: gray;
+}
+
+#white {
+  background-color: whitesmoke;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+.bg-color {
+  background-color: whitesmoke;
+}
