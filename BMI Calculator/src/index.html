@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <h2 class="heading">BMI Calculator</h2>
+
+      <form class="form-container">
+        <input
+          type="number"
+          id="height"
+          placeholder="your height in cm"
+          class="height"
+        />
+        <input
+          type="number"
+          id="weight"
+          placeholder="your weight in kg"
+          class="weight"
+        />
+
+        <button class="button" type="submit">Calculate</button>
+      </form>
+
+      <h3 class="result">Result : <span id="bmi"> 0 </span></h3>
+
+      <div class="guide">
+        <h4>Here's the classification based on BMI ranges:</h4>
+        <ul>
+          <li>Underweight: BMI less than 18.5</li>
+          <li>Normal weight: BMI between 18.5 and 24.9</li>
+          <li>Overweight: BMI between 25 and 29.9</li>
+          <li>Obesity: BMI 30 or greater</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
