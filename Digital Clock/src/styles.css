@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+}
+
+#app {
+  text-align: center;
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+}
+
+.clock {
+  width: 120px;
+  padding: 13px 25px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: brown;
+}
